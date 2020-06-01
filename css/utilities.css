@@ -1,0 +1,19 @@
+/* utilities */
+
+/* content */
+a {
+    color: #121212;
+}
+a:hover {
+    color: #2A8356;
+}
+p {
+    font-size: 16px;
+}
+li {
+    font-size: 16px;
+}
+/* color */
+.green {
+    background: #EDF4EE;
+}

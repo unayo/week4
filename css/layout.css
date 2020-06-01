@@ -1,0 +1,15 @@
+/* MENU LAYOUT */
+nav {
+    width: 296px;
+    height: 100vh;
+}
+.sideBar ul {
+    padding-top: 32px;
+    padding-right: 113px;
+    padding-left: 32px;
+    list-style: none;
+}
+main {
+    margin-left: 296px;
+    padding-left: 32px;
+}
