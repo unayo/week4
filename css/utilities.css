@@ -1,19 +1,61 @@
 /* utilities */
-
+.title {
+    font-size: 24px;
+    line-height: 33px;
+}
+.sub-title {
+    font-size: 12px;
+    line-height: 24px;
+}
+code {
+    color:#2A8356;
+    background: #EDF4EE;
+    padding: 2px;
+}
 /* content */
 a {
     color: #121212;
 }
 a:hover {
     color: #2A8356;
+    text-decoration: none;
 }
-p {
-    font-size: 16px;
+.btn-green {
+    color: #2A8356;
 }
-li {
-    font-size: 16px;
+.btn-primary {
+    background-color:#2A8356;
+    border-color:#2A8356;
+}
+.btn-outline-primary {
+    color: #2A8356;
+    border-color: #2A8356;
+}
+.btn-primary:hover, .btn-outline-primary:hover {
+    background-color:#2c694a;
+    border-color:#2c694a;
 }
 /* color */
 .green {
     background: #EDF4EE;
+}
+.gray {
+    color:#0000009A;
+}
+/*BS4*/
+.list-group-item.active {
+    color: #121212;
+}
+.btn-outline-secondary {
+    background: #EDF4EE;
+    border: solid 1px #CDDDCD;
+    color: #121212;
+}
+.btn-outline-secondary:hover {
+    background: #2A8356;
+    border: solid 1px #2A8356;
+}
+.list-group-item.active {
+    border: solid 1px #CDDDCD;
+    background-color:#EDF4EE;
 }

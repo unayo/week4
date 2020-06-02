@@ -4,12 +4,33 @@ nav {
     height: 100vh;
 }
 .sideBar ul {
-    padding-top: 32px;
-    padding-right: 113px;
-    padding-left: 32px;
     list-style: none;
+    padding-inline-start: 0px;
+}
+.logo {
+    margin: 40px 0;
+}
+.sideBar li a {
+    display: flex;
+    align-items: center;
+    padding-left: 31px;
+    margin-left: 4px;
+    margin-bottom: 29px;
+}
+.sideBar li:hover a {
+    border-left: solid 4px;
+    margin-left: 0;
 }
 main {
-    margin-left: 296px;
-    padding-left: 32px;
+    left: 292px;
+}
+.user {
+    bottom: 32px;
+    margin-left: 32px;
+}
+.user img {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    margin-right: 30px;
 }
